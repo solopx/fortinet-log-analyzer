@@ -42,7 +42,7 @@ Python 3.x
     python src/main.py
     ```
 
-### Utilização da Interface
+## Utilização da Interface
 
 1. Carregar Logs: Clique no botão "Abrir Log" e selecione um arquivo de log (extensões .log ou .txt).
 2. Filtragem: Digite termos de pesquisa na barra de busca. Clique em limpar para limpar os termos de busca e mostrar todos os resultados.

@@ -4,7 +4,7 @@
 
 Um aplicativo de desktop simples e leve para visualização, análise e tratamento de logs de equipamentos Fortinet, desenvolvido em Python.
 
-Este aplicativo torna mais fácil a análise e a gerência de logs de dispositivos UTM para usuários da área de segurança sem a necessidade da utilização de um appliance FortiAnaltzer.
+Este aplicativo torna mais fácil a análise e a gerência de logs de dispositivos UTM para usuários da área de segurança sem a necessidade da utilização de um appliance FortiAnalyzer.
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Este aplicativo torna mais fácil a análise e a gerência de logs de dispositiv
 
 ![Screenshot 2](/assets/screenshot-01.png)
 
-## 🛠️ Como Usar
+## Como Usar
 
 ### Pré-requisitos
 Python 3.x

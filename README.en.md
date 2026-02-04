@@ -45,6 +45,16 @@ It provides a user-friendly interface for security professionals to manage UTM l
    python src/main.py
    ```
 
+## How to Use
+
+1. **Load Logs**: Click the **"Abrir Log"** button and select a log file (`.log` or `.txt`).
+2. **Filtering**: Type search terms in the search bar. Click **"Limpar"** to clear filters and show all results.
+3. **Sorting**: Click on column headers to sort data in ascending or descending order.
+4. **Export as Text**: Right-click on any row to export the selected line as plain text.
+5. **Export Data**: Click **"Exportar CSV"** or **"Exportar JSON"** to save your filtered results into those formats.
+6. **Detailed View**: Double-click any log entry to open a pop-up window with its full metadata.
+7. **Statistics**: Use the right-side panel to visualize the most common traffic patterns (Top IPs, Actions, etc.).
+
 ## Expected Log Format
 The analyzer parses standard key=value log entries, such as:
 

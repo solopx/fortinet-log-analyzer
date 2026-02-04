@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg) ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[Read this in English](README.en.md)
+
 Um aplicativo de desktop simples e leve para visualização, análise e tratamento de logs de equipamentos Fortinet, desenvolvido em Python.
 
 Este aplicativo torna mais fácil a análise e a gerência de logs de dispositivos UTM para usuários da área de segurança sem a necessidade da utilização de um appliance FortiAnalyzer.

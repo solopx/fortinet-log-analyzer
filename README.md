@@ -7,7 +7,6 @@
 
 =======
 [Read this in English](README.en.md)
->>>>>>> eb581e2ecc6fbd5804174d7376cd98ee4289f9e5
 
 Um aplicativo de desktop simples e leve para visualização, análise e tratamento de logs de equipamentos Fortinet, desenvolvido em Python.
 

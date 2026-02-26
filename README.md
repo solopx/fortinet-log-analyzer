@@ -3,8 +3,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg) ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<<<<<<< HEAD
 ## V2 is OUT NOW!
 
+=======
+[Read this in English](README.en.md)
+>>>>>>> eb581e2ecc6fbd5804174d7376cd98ee4289f9e5
 
 Um aplicativo de desktop simples e leve para visualização, análise e tratamento de logs de equipamentos Fortinet, desenvolvido em Python.
 

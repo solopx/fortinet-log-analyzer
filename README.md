@@ -1,6 +1,10 @@
+
 # FortiNet Log Analyzer
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg) ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## V2 is OUT NOW!
+
 
 Um aplicativo de desktop simples e leve para visualização, análise e tratamento de logs de equipamentos Fortinet, desenvolvido em Python.
 
@@ -8,18 +12,20 @@ Este aplicativo torna mais fácil a análise e a gerência de logs de dispositiv
 
 ## Funcionalidades
 
-- **Visualização gráfica de Logs**: Carrega e exibe de forma detalhada arquivos logs em formato `.log` ou `.txt` no formato `key=value`.
+- **Visualização gráfica de Logs**: Exibe de forma detalhada arquivos logs em formato `.log` ou `.txt` no formato `key=value`.
 - **Busca dinâmica:** Filtra logs por qualquer termo em todos os campos, com busca case-insensitive.
-- **Análise Visual Simples:** Coloração automática para níveis críticos (alert, critical, error) e ações de bloqueio (deny, block).
+-  **Busca temporal:** Busca por intervalo de tempo (data/hora)
+- **Análise Visual Simples:** Coloração automática para níveis críticos (alert, critical, error) e para ações comuns de tráfego (deny, block).
+- **Plotagem de gráficos:** Gráficos com capacidade de exportação para melhor visualização e apresentação dos dados coletados.
 - **Painel lateral:** Estatísticas em tempo real (Top IPs de origem, Top Ações e Níveis).
-- **Ordenação de Colunas:** Classifique os logs clicando nos cabeçalhos das colunas (crescente/decrescente).
 - **Inspeção Detalhada:** Clique duplo em qualquer linha para abrir uma janela de detalhes com todos os campos do log selecionado.
 - **Interface de Alta Performance:** Suporta arquivos grandes através de um sistema de paginação dinâmica (3.000 registros por página), mantendo a fluidez da interface.
 - **Exportação de Dados**: Possibilidade de exportação dos dados selecionados em formatos .csv ou .json
 
 ## Screenshots
 
-![Screenshot 2](/assets/screenshot-01.png)
+![Screenshot 0](/assets/screenshot-00.png)
+![Screenshot 2](/assets/screenshot-02.png)
 
 ## Como Usar
 
@@ -57,6 +63,15 @@ Python 3.x
 O script analisa entrada de logs no formato `key=value`, como por exemplo:
 
 `date=2023-10-27 time=10:30:00 logid=0000000000 type=traffic subtype=forward srcip=192.168.1.10 srcport=54321 srcintf="port1" dstip=8.8.8.8 dstport=53 dstintf="wan1" policyid=1 action=accept service="dns" utmaction=passthrough sentbyte=123 rcvdbyte=456`
+
+## Estrutura da aplicação
+
+A estrutura da aplicação foi dividida em 3 arquivos para melhor manutenção e expansão:
+
+1. **log_engine.py:** Motor de parse de logs, busca e filtros
+2. **ui.py:** Interface gráfica em Tkinter. Define o layout, estilos visuais e expõe os widgets para o main orquestrar.
+3. **main.py:** Ponto de entrada da aplicação.
+
 
 ## Contribuições
 

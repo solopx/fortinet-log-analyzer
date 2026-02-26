@@ -3,7 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg) ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<<<<<<< HEAD
 ## V2 is OUT NOW!
 
 =======

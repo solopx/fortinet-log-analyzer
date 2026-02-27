@@ -5,6 +5,7 @@
 
 ## V2 is OUT NOW!
 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTZ1eHpkb3lvemdpZmZ6ejMxamR4ZXJrYTJsNGl2cDlneHdsdHYwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr7n0u3qzO9nG/giphy.gif" width=20% height=20%>
 
 [Read this in English](README.en.md)
 

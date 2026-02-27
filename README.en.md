@@ -7,6 +7,8 @@ It provides a user-friendly interface for security professionals to manage UTM l
 
 ## V2 is OUT NOW!
 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTZ1eHpkb3lvemdpZmZ6ejMxamR4ZXJrYTJsNGl2cDlneHdsdHYwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr7n0u3qzO9nG/giphy.gif" width=20% height=20%>
+
 ## Key Features
 
 - **Graphical Log Viewer:** Display `.log` or `.txt` files in `key=value` format.

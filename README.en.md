@@ -5,9 +5,11 @@
 A lightweight desktop application developed in Python for viewing, analyzing, and processing Fortinet equipment logs.
 It provides a user-friendly interface for security professionals to manage UTM logs without requiring a FortiAnalyzer appliance.
 
+## V2 is OUT NOW!
+
 ## Key Features
 
-- **Graphical Log Viewer:** Load and display `.log` or `.txt` files in `key=value` format.
+- **Graphical Log Viewer:** Display `.log` or `.txt` files in `key=value` format.
 - **Dynamic Search:** Case-insensitive filtering across all log fields.
 - **Visual Analysis:** Automatic color-coding for critical levels (alert, critical, error) and block actions (deny, block).
 - **Live Statistics:** Side panel showing real-time stats (Top Source IPs, Top Actions, and Severity Levels).
@@ -17,7 +19,8 @@ It provides a user-friendly interface for security professionals to manage UTM l
 
 ## Screenshots
 
-![Screenshot 1](./assets/screenshot-01.png)
+![Screenshot 0](/assets/screenshot-00.png)
+![Screenshot 2](/assets/screenshot-02.png)
 
 ## Quick Start
 
@@ -50,10 +53,12 @@ It provides a user-friendly interface for security professionals to manage UTM l
 1. **Load Logs**: Click the **"Abrir Log"** button and select a log file (`.log` or `.txt`).
 2. **Filtering**: Type search terms in the search bar. Click **"Limpar"** to clear filters and show all results.
 3. **Sorting**: Click on column headers to sort data in ascending or descending order.
-4. **Export as Text**: Right-click on any row to export the selected line as plain text.
-5. **Export Data**: Click **"Exportar CSV"** or **"Exportar JSON"** to save your filtered results into those formats.
-6. **Detailed View**: Double-click any log entry to open a pop-up window with its full metadata.
-7. **Statistics**: Use the right-side panel to visualize the most common traffic patterns (Top IPs, Actions, etc.).
+4. **Date/Time Search**: Search by time interval (data/hour).
+5. **Export as Text**: Right-click on any row to export the selected line as plain text.
+6. **Export Data**: Click **"Exportar CSV"** or **"Exportar JSON"** to save your filtered results into those formats.
+7. **Detailed View**: Double-click any log entry to open a pop-up window with its full metadata.
+8. **Chart Plotting:** Graphs with export capability for better visualization and presentation of the data found.
+9. **Statistics**: Use the right-side panel to visualize the most common traffic patterns (Top IPs, Actions, etc.).
 
 ## Expected Log Format
 The analyzer parses standard key=value log entries, such as:
